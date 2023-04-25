@@ -1,0 +1,10 @@
+flex For lex 
+flex filename.l
+gcc lex.yy.c
+a.exe
+
+For yacc
+flex filename.l
+bison -dy filename.y
+gcc lex.yy.c y.tab.c
+a.exe
